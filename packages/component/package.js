@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'jagi:component',
+  name: 'jagi:components',
   version: '0.0.1'
 });
 
@@ -12,10 +12,5 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('less');
 
-  // api.addFiles('component.less', 'client');
-  api.addFiles('component.less', 'client', {
-    isImport: true
-  });
-
-  api.mainModule('component.js', 'client');
+  api.mainModule('main.js', 'client');
 });

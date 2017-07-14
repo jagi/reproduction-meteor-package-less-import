@@ -1,8 +1,8 @@
 import { Template } from 'meteor/templating';
-import { ReactComponent } from 'meteor/jagi:component';
+import { Button } from 'meteor/jagi:components';
 
 import './main.html';
 
 Template.body.helpers({
-  ReactComponent: () => ReactComponent
+  Button: () => Button
 });
