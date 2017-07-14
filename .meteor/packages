@@ -16,3 +16,4 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 jagi:components
 react-template-helper
 less
+fourseven:scss

@@ -11,6 +11,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.5');
   api.use('ecmascript');
   api.use('less');
+  api.use('fourseven:scss');
 
   api.mainModule('main.js', 'client');
 });
